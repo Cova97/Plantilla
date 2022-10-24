@@ -5,12 +5,12 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const name = 'Aldo';
 
-const jsx = (
+const Jsx = (
   <>
     <h1>Hola {name}</h1>
   </>
 );
 
-root.render(jsx);
+root.render(<Jsx/>);
 
 
